@@ -1,6 +1,9 @@
 # Facebook-Feed-Loading-Animation
 This loader can be used for table view animations like in Facebook feed loading. 
 
+# Demo
+![alt text](https://j.gifs.com/G5qwVr.gif)
+
 There is no pod . You can directly download the zip and copy the file CustomTableViewLoader.swift in your project.
 
 Steps:

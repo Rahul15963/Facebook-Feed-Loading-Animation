@@ -1,5 +1,5 @@
 # Facebook-Feed-Loading-Animation
-This loader can be used for table view animations like in Facebook feed loading. 
+This loader can be used for table view animations like in Facebook feed loading. You dont have to set table view delegate and datasource for animation. You can configure the animating cell. Please look at the demo example. You will know each and everything.
 
 # Demo
 ![alt text](https://j.gifs.com/G5qwVr.gif)

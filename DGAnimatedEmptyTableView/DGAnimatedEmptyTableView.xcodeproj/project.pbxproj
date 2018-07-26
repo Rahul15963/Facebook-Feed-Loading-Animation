@@ -12,8 +12,9 @@
 		8B5494552102195800636C36 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5494502102195700636C36 /* NotificationViewController.swift */; };
 		8B5494572102195800636C36 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5494522102195800636C36 /* NotificationCell.swift */; };
 		8B549459210219A500636C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B549458210219A500636C36 /* Main.storyboard */; };
-		8B54945C21021A3300636C36 /* CustomTableViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54945B21021A3300636C36 /* CustomTableViewLoader.swift */; };
+		8B54945C21021A3300636C36 /* CustomViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54945B21021A3300636C36 /* CustomViewLoader.swift */; };
 		8B54945E21021B6A00636C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B54945D21021B6A00636C36 /* Assets.xcassets */; };
+		8B6AD6CD2109AE6200053D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AD6CC2109AE6200053D79 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		8B5494502102195700636C36 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		8B5494522102195800636C36 /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		8B549458210219A500636C36 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8B54945B21021A3300636C36 /* CustomTableViewLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewLoader.swift; sourceTree = "<group>"; };
+		8B54945B21021A3300636C36 /* CustomViewLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewLoader.swift; sourceTree = "<group>"; };
 		8B54945D21021B6A00636C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B6AD6CC2109AE6200053D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8B54945A21021A3300636C36 /* CustomTableViewLoader */,
 				8B549439210218F900636C36 /* AppDelegate.swift */,
 				8B549458210219A500636C36 /* Main.storyboard */,
+				8B6AD6CC2109AE6200053D79 /* ViewController.swift */,
 				8B5494502102195700636C36 /* NotificationViewController.swift */,
 				8B5494522102195800636C36 /* NotificationCell.swift */,
 				8B54944C2102195700636C36 /* LaunchScreen.xib */,
@@ -73,7 +76,7 @@
 		8B54945A21021A3300636C36 /* CustomTableViewLoader */ = {
 			isa = PBXGroup;
 			children = (
-				8B54945B21021A3300636C36 /* CustomTableViewLoader.swift */,
+				8B54945B21021A3300636C36 /* CustomViewLoader.swift */,
 			);
 			path = CustomTableViewLoader;
 			sourceTree = "<group>";
@@ -149,10 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6AD6CD2109AE6200053D79 /* ViewController.swift in Sources */,
 				8B5494572102195800636C36 /* NotificationCell.swift in Sources */,
 				8B54943A210218F900636C36 /* AppDelegate.swift in Sources */,
 				8B5494552102195800636C36 /* NotificationViewController.swift in Sources */,
-				8B54945C21021A3300636C36 /* CustomTableViewLoader.swift in Sources */,
+				8B54945C21021A3300636C36 /* CustomViewLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,14 +12,14 @@ class NotificationViewController: UIViewController {
   
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var titleView: UIVisualEffectView!
-    var customTableViewLoader: CustomTableViewLoader!
+    var customTableViewLoader: CustomViewLoader!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        customTableViewLoader = CustomTableViewLoader.init(customTableView: tableView, customCellIdentifier: "Notification1Cell", sourceViewController: self, heightOfCell: 94)
-        
+        customTableViewLoader = CustomViewLoader.init(customTableView: tableView, customCellIdentifier: "Notification1Cell", sourceViewController: self, heightOfCell: 94)
+        customTableViewLoader.gradientColor = .red
         titleView.layer.cornerRadius = 8
         titleView.clipsToBounds = true
         tableView.tableFooterView = UIView.init()

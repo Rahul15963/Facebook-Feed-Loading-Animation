@@ -7,7 +7,7 @@ Update:
 # Demo
 ![alt text](https://j.gifs.com/G5qwVr.gif)
 
-There is no pod . You can directly download the zip and copy the file CustomTableViewLoader.swift in your project.
+There is no pod . You can directly download the zip and copy the file CustomViewLoader.swift in your project.
 
 # Table View
 
